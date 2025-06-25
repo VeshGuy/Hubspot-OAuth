@@ -1,0 +1,77 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+*.egg
+*.egg-info/
+.env
+*.env
+*.sqlite3
+.venv/
+venv/
+myvenv/
+
+# === Flask ===
+instance/
+*.db
+*.sqlite
+*.bak
+*.tmp
+
+# === React / Vite ===
+node_modules/
+dist/
+dist-ssr/
+.vite/
+coverage/
+*.tsbuildinfo
+
+# === Logs ===
+logs/
+*.log
+*.pid
+*.gz
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# === Editor / OS Files ===
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+Thumbs.db
+
+# === Generated Data ===
+data/output*.json
+data/*.pdf  # ignore uploaded/test PDFs
+static/
+__snapshots__/
+
+# === Environment Secrets ===
+.env
+.env.*  # .env.dev, .env.production
+
+# === Build Tools ===
+.parcel-cache/
+.eslintcache
+.cache/
+
+# === Test Coverage ===
+coverage/
+htmlcov/
+.tox/
+.pytest_cache/
+
+# === Optional ===
+# Logs or token dumps from any LLM API
+api_debug.json
+token_log.txt

@@ -1,0 +1,8 @@
+flask
+flask_cors
+python-dotenv
+pytesseract
+pymupdf
+crewai
+requests
+openai 

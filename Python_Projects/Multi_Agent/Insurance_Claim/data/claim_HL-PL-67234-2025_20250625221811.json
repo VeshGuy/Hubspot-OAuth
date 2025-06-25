@@ -1,0 +1,12 @@
+{
+    "name": "Rohan Mehta",
+    "dob": "12/08/1988",
+    "claim_amount": "\u20b980,000.00",
+    "incident_date": "15/06/2025",
+    "policy_number": "HL-PL-67234-2025",
+    "validation_status": "failed",
+    "errors": [
+        "Invalid date format for: dob",
+        "Invalid date format for: incident_date"
+    ]
+}
