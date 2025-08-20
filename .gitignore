@@ -1,0 +1,29 @@
+# Python
+hubenv/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.rdb
+
+# VSCode
+.vscode/
+
+# Node.js
+frontend/node_modules/
+frontend/build/
+frontend/.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Ignore Python virtual environments
+venv/
+env/
+ENV/
